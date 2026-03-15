@@ -17,6 +17,6 @@ jobs:
           # diff를 정확히 계산하기 위해 전체 히스토리를 가져옵니다.
           fetch-depth: 0
       - name: Culinary Reviewer Step
-        uses: asisjinwookim/culinaryclasswars-pr-agent@main
+        uses: asisjwk/culinaryclasswars-pr-agent@main
         with:
           gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
